@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project demonstrates parallel programming techniques using **C** and **Linux processes** to generate Mandelbrot set images and create a movie. The program uses **multi-processing** to speed up the computation of fractal images by dividing the workload across multiple child processes.
+This project demonstrates parallel programming to generate Mandelbrot set images and create a movie. The program uses **multi-processing** to speed up the computation of fractal images by dividing the workload across multiple child processes.
 
 ---
 
@@ -32,7 +32,6 @@ This project demonstrates parallel programming techniques using **C** and **Linu
 - **`mandelmovie.c`**: Manages the creation of multiple child processes and orchestrates the generation of all images.
 - **`Makefile`**: Automates the compilation of the programs.
 - **`README.md`**: Documentation for the project.
-- **`output_files/`**: Directory containing the generated Mandelbrot images.
 
 ---
 
