@@ -1,4 +1,9 @@
 /// 
+// Lab 11 Assignment 
+// Nastasja Radulovic
+// CPE 2600 121
+// Date: 11/26/24
+//
 //  mandel.c
 //  Based on example code found here:
 //  https://users.cs.fiu.edu/~cpoellab/teaching/cop4610_fall22/project3.html
