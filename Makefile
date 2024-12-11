@@ -13,12 +13,12 @@ all: $(SOURCES) $(EXECUTABLE)
 mandel: mandel.o jpegrw.o
 	$(CC) mandel.o jpegrw.o $(LDFLAGS) -o $@
 
-mandelmovie: mandelmovie.o
-	$(CC) mandelmovie.o $(LDFLAGS) -o $@
+mandelmovie: mandelmovie.o jpegrw.o
+	$(CC) mandelmovie.o jpegrw.o $(LDFLAGS) -o $@
 
 %.o: %.c
 	$(CC) $(CFLAGS) $< -o $@
 	$(CC) -MM $< > $*.d
 
 clean:
-	rm -rf *.o $(EXECUTABLES) *.ds
+	rm -rf *.o $(EXECUTABLE) *.ds
